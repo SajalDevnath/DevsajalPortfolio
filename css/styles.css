@@ -273,7 +273,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/Rect\ Light.svg);
     background-size: cover;
     padding: 15px;
     overflow: hidden
@@ -318,7 +318,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(33, 125, 187, 0.8);
+    /* background: rgba(33, 125, 187, 0.8); */
     z-index: 1
 }
 
@@ -769,6 +769,9 @@ footer {
     .vtimeline-content {
         margin-left: 70px
     }
+    .view_resume{
+        margin-left:-40px !important;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -800,6 +803,9 @@ footer {
 
     #about p {
         text-align: left
+    }
+    .view_resume{
+        margin-left:350px;
     }
 }
 
@@ -871,6 +877,9 @@ footer {
     .social {
         text-align: center
     }
+    .view_resume{
+        margin-left:250px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -885,6 +894,9 @@ footer {
     #lead-content a {
         font-size: 0.9em;
         padding: 5px 10px
+    }
+    .view_resume{
+        margin-left:77px;
     }
 }
 
