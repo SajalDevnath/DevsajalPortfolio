@@ -1,15 +1,4 @@
-/*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
 
-    Description: This file contains all the styles associated with the page
-    that don't come from third party libraries. This file gets compiled using
-    Gulp and send to the /css folder which is then loaded on the page.
-*/
 body {
     font-family: 'Cuprum';
     font-size: 16px;
@@ -233,6 +222,17 @@ footer {
     text-decoration: none
 }
 
+.view_capture{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.view_resume{
+    margin-left: -5px;
+    text-decoration: none !important;
+    /* color: #fff; */
+}
+
 .shadow {
     box-shadow: 0 10px 7px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     margin-top: 10px;
@@ -442,7 +442,14 @@ footer {
     margin: 0 0 15px 0
 }
 
-.vtimeline-content p {
+.vtimeline-content h5 {
+    font-size: 1em;
+    font-weight: 100;
+    color: #7e8890;
+    margin: 0 0 15px 0;
+}
+
+.vtimeline-content li {
     color: #74808a;
     font-size: 0.9em;
     margin: 0
@@ -881,13 +888,3 @@ footer {
     }
 }
 
-.view_capture{
-    margin-left: 10px;
-    text-decoration: none;
-}
-
-.view_resume{
-    margin-left: -5px;
-    text-decoration: none !important;
-    /* color: #fff; */
-}
