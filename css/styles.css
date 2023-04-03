@@ -770,7 +770,7 @@ footer {
         margin-left: 70px
     }
     .view_resume{
-        margin-left:-40px !important;
+        /* margin-left:-40px !important; */
     }
 }
 
@@ -892,8 +892,8 @@ footer {
     }
 
     #lead-content a {
-        font-size: 0.9em;
-        padding: 5px 10px
+        font-size: 9px;
+        /* padding: 5px 10px */
     }
     .view_resume{
         margin-left:77px;
