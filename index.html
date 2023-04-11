@@ -51,9 +51,11 @@
         <id id="lead-content">
             <h1>Sajal Devnath</h1>
             <h2>Developer | Photographer</h2>
-            <a href="./SDResumeWeb.pdf" target="_blank" class="btn-rounded-white view_resume">View Resume</a>
-            <a href="https://www.pexels.com/@sajal-devnath-15363403/" target="_blank"
-                class="btn-rounded-white view_capture">View Captures</a>
+            <div class="test" style="flex: auto; align-content: center; text-align: \;">
+                <a href="./SDResumeWeb.pdf" target="_blank" class="btn-rounded-white">View Resume</a>
+                <a href="https://www.pexels.com/@sajal-devnath-15363403/" target="_blank"
+                    class="btn-rounded-white view_capture">View Captures</a>
+            </div>
     </div>
     <!-- End #lead-content -->
 
@@ -139,14 +141,14 @@
             <h4>BTech. Computer Science and Engineering</h4>
             <p>
                 Minor: Hardware Security | Open Minor: Android Application Development
-            <ul>
-                <li>
-                    GPA : 7.7
-                </li>
-                <li>
-                    Top 10% (Dean's List) in the batch of 2023.
-                </li>
-            </ul>
+                <ul>
+                    <li>
+                        GPA : 7.7
+                    </li>
+                    <li>
+                        Top 10% (Dean's List) in the batch of 2023.
+                    </li>
+                </ul>
             </p>
         </div>
         <!-- End .education-block -->
@@ -611,7 +613,9 @@
     <script src="js/scripts.min.js"></script>
     <script>
         function goToBottom() {
-            $('html,body').animate({ scrollTop: document.body.scrollHeight }, "slow");
+            $('html,body').animate({
+                scrollTop: document.body.scrollHeight
+            }, "slow");
         }
     </script>
 </body>
