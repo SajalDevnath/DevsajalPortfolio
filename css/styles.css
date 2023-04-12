@@ -748,6 +748,10 @@ footer {
     padding: 0 0 0 15px
 }
 
+#about img{
+    height: 25rem;
+}
+
 @media only screen and (max-width: 750px) {
 
     #experience-timeline:before,
@@ -800,11 +804,17 @@ footer {
     }
 
     #about {
-        text-align: center
+        text-align: center;
+        margin-top: -2rem;
+    }
+    
+    #about img{
+        height: 20rem;
     }
 
     #about p {
-        text-align: left
+        text-align: center;
+        margin-top: 2rem;
     }
     .view_resume{
         margin-left:350px;
