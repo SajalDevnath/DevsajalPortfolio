@@ -89,3 +89,14 @@
 
 
 })(jQuery);
+
+$(document).ready(function() {
+    $('.skilltitle').on('click', function() {
+      $('#collapse1').toggleClass('show'); // Toggle the .show class on the dropdown content
+    });
+  });
+
+
+
+  
+  
