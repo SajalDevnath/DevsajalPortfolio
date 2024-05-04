@@ -964,6 +964,11 @@ footer {
     height: 250px;
     width: 250px;
   }
+.crtfctimg{
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+  }
 
 
   .progress{
